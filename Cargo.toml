@@ -1,0 +1,17 @@
+[package]
+name = "hash-that-set"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "Implements hashing for sets and maps themselves. Enables a map of maps to values, or a map of sets to values."
+homepage = "https://github.com/A248/hash-that-set"
+repository = "https://github.com/A248/hash-that-set"
+readme = "README.md"
+keywords = ["hash", "hashing", "utility"]
+categories = ["rust-patterns"]
+rust-version = "1.60"
+
+[dependencies]
+
+[dev-dependencies]
+static_assertions = "1.1.0"
